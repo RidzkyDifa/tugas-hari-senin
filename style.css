@@ -72,88 +72,81 @@ li a:hover {
 
 .hero-section {
   width: 100%;
-  height: 500px;
-}
-
-.background-hero {
+  height: 600px;
   background-image: url(https://fahum.umsu.ac.id/blog/wp-content/uploads/2024/07/sinopsis-film-deadpool-3-deadpool-wolverine-750x375.jpg);
-  background-repeat: no-repeat;
+  background-repeat: none;
   background-size: cover;
-  filter: blur(4px);
-  width: 100%;
-  height: 100%;
 }
-
-.background-gradient {
+.bg-gradient {
   background-image: linear-gradient(
-    to right,
     rgba(0, 0, 0, 0),
-    rgba(51, 51, 51, 0.9),
+    rgba(51, 51, 51, 0.8),
     #333
   );
-  background-size: cover;
+  height: 100%;
   width: 100%;
-  height: 515px;
-  position: absolute;
-  z-index: 2;
-  top: 55px;
-}
-
-.center {
-  position: absolute;
-  top: 120px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .desc {
-  position: absolute;
-  right: 60px;
-  z-index: 3;
+  padding: 200px 50px;
 }
 
-.about {
-  text-decoration: none;
-  color: #111;
-  top: 275px;
-  font-size: 25px;
-  z-index: 3;
-}
-.about:hover {
-  text-decoration: underline;
-  background-color: #333;
-  color: aliceblue;
-  padding: 2px 5px;
+.movie-title {
+  margin-top: 50px;
 }
 
-.hero-section h2 {
-  color: white;
-  position: absolute;
-  top: 120px;
-  right: 50px;
+.movie-title h2 {
   font-size: 60px;
-  padding: 10px;
-  z-index: 3;
+  color: aliceblue;
+  margin: 0;
+}
+
+.movie-desc {
+  color: aliceblue;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.movie-misc {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .play-btn {
-  top: 325px;
+  margin-right: 20px;
 }
 
 .play-btn button {
-  padding: 10px 60px;
-  background-color: #111;
-  color: aliceblue;
-  font-size: 15px;
-  border-radius: 10%;
+  padding: 5px 40px;
   border-style: none;
-}
-.play-btn button:hover {
+  border-radius: 15%;
   background-color: #333;
   color: aliceblue;
+  font-size: 20px;
 }
 
-iframe {
-  margin: 40px 20px;
-  z-index: 2;
+.play-btn button:hover {
+  background-color: #111;
+}
+
+.other {
+  padding: 5px;
+}
+
+.other a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.other a:hover {
+  text-decoration: underline;
+}
+
+.teaser {
+  padding: 150px 40px;
 }
 
 /* Section 2 */
