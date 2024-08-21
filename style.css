@@ -6,20 +6,14 @@ body {
   box-sizing: border-box;
 }
 .navbar {
-  background-color: #333;
+  background-color: rgb(25, 26, 28);
   margin: 0;
   padding: 0 1vw;
-  height: 10vh;
   min-height: 70px;
   width: 100%;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
   align-items: center;
-  width: auto;
+  justify-content: space-between;
+  display: flex;
 }
 
 .left-side {
@@ -29,15 +23,13 @@ body {
 }
 
 /* LOGO */
-#logo {
-  display: flex;
-  margin: 0 20px;
+
+.left-side #clip-logo {
+  margin-bottom: 4px;
 }
 
-#logo p {
-  color: white;
-  font-weight: bold;
-  font-size: 2vw;
+.left-side #chill-logo {
+  margin-left: -6px;
 }
 
 /* Daftar */
@@ -50,7 +42,7 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  width: 40vw;
+  width: 50vw;
   height: 100%;
 }
 
@@ -62,25 +54,61 @@ li a {
   text-decoration: none;
   display: block;
   color: white;
-  font-size: 1.5vw;
+  font-size: calc(9px + 1vw);
 }
 
 /* Login */
-#login-btn button {
-  padding: 10px 40px;
-  margin: 0%;
-  border-radius: 15%;
-  background-color: #333;
-  color: white;
-  font-size: 15px;
+
+.account-btn {
+  display: inline-block;
+  position: relative;
 }
-#login-btn button:hover {
-  background-color: #111;
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 160%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+  right: 8px;
+}
+
+.account-btn:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: aliceblue;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(25, 26, 28);
+}
+
+.dropdown-content a:hover {
+  color: rgb(25, 26, 28);
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 426px) {
+  .left-side #chill-logo {
+    display: none;
+  }
+
+  .left-side #clip-logo {
+    width: 30px;
+    margin-left: 15px;
+  }
+
+  .account-btn img {
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
 }
 
 /* Section 1 */
-
-.hero-section {
+/* .hero-section {
   background-image: url(https://akcdn.detik.net.id/visual/2023/03/29/drama-korea-duty-after-school-2023_169.jpeg?w=650&q=90);
   background-repeat: none;
   background-size: cover;
@@ -164,10 +192,10 @@ li a {
   margin-left: 15px;
   border: solid 2px whitesmoke;
   border-radius: 50%;
-}
+} */
 
 /* Section 2 */
-.section-2 {
+/* .section-2 {
   background-color: #333;
   width: 100%;
   height: 25vw;
@@ -219,4 +247,4 @@ li a {
   margin-left: 100px;
   margin-top: 125px;
   color: aliceblue;
-}
+} */
