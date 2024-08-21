@@ -90,6 +90,112 @@ li a {
   background-color: aliceblue;
 }
 
+/* Section 1 */
+
+/* background */
+.hero-section {
+  background-image: url(https://akcdn.detik.net.id/visual/2023/03/29/drama-korea-duty-after-school-2023_169.jpeg?w=650&q=90);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.bg-gradient {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(51, 51, 51, 0.5),
+    #333
+  );
+  height: 100%;
+}
+
+.desc {
+  padding: 18vw 3.5vw 13vw 3.5vw;
+  align-items: center;
+}
+
+/* Judul */
+.movie-title {
+  margin-top: 50px;
+  font-size: calc(30px + 1vw);
+  color: aliceblue;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Deskripsi */
+.desc p {
+  color: aliceblue;
+  font-size: calc(1px + 1.5vw);
+  max-width: 50%;
+  max-height: 100px;
+}
+
+/* Ikon */
+.movie-icon {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.icon-left {
+  display: flex;
+  align-items: center;
+}
+
+.play-btn {
+  margin-right: 1vw;
+}
+
+.play-btn button {
+  padding: 5px 20px;
+  border-style: none;
+  border-radius: 25px;
+  background-color: blue;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.play-btn button:hover {
+  background-color: #111;
+}
+
+.other {
+  margin: 0 1vw;
+}
+
+.other a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  background-color: #191a1c;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.other a:hover {
+  text-decoration: underline;
+}
+
+.icon-left p {
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  padding: 7.5px 5px;
+  border: solid 1px aliceblue;
+  border-radius: 50px;
+}
+
+.movie-icon img {
+  width: calc(height);
+  height: 100%;
+  margin-right: 5vw;
+  border: solid 1px aliceblue;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 426px) {
   .left-side #chill-logo {
     display: none;
@@ -105,94 +211,36 @@ li a {
     margin-right: 10px;
     margin-top: 5px;
   }
-}
 
-/* Section 1 */
-/* .hero-section {
-  background-image: url(https://akcdn.detik.net.id/visual/2023/03/29/drama-korea-duty-after-school-2023_169.jpeg?w=650&q=90);
-  background-repeat: none;
-  background-size: cover;
-  height: 40vw;
-}
-.bg-gradient {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0),
-    rgba(51, 51, 51, 0.5),
-    #333
-  );
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-}
+  .hero-section {
+    height: 250px;
+  }
 
-.desc {
-  padding: 13vw 3.5vw;
-  align-items: center;
-}
+  .desc p {
+    max-width: 100%;
+    white-space: nowrap;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-.movie-title {
-  margin-top: 50px;
-}
+  .movie-icon {
+    height: 25px;
+  }
 
-.movie-title h2 {
-  font-size: 4.1vw;
-  color: aliceblue;
-  margin: 0;
-  font-weight: bold;
-}
+  .movie-icon img {
+    height: 80%;
+    padding: 2px;
+  }
 
-.movie-desc {
-  color: aliceblue;
-  font-size: 1.3vw;
-  padding-bottom: 10px;
-  max-width: 700px;
-}
+  .play-btn button {
+    font-size: calc(0.6 * 25px);
+  }
 
-.movie-misc {
-  display: flex;
-  justify-content: flex-start;
+  .other a {
+    font-size: calc(0.6 * 25px);
+  }
 }
-
-.play-btn {
-  margin-right: 20px;
-}
-
-.play-btn button {
-  padding: 5px 40px;
-  border-style: none;
-  border-radius: 15%;
-  background-color: blue;
-  color: aliceblue;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.play-btn button:hover {
-  background-color: #111;
-}
-
-.other {
-  padding: 5px;
-}
-
-.other a {
-  text-decoration: none;
-  color: aliceblue;
-  font-size: 20px;
-}
-
-.other a:hover {
-  text-decoration: underline;
-}
-
-.age-r {
-  color: aliceblue;
-  margin: 0;
-  padding: 8px 6px;
-  margin-left: 15px;
-  border: solid 2px whitesmoke;
-  border-radius: 50%;
-} */
 
 /* Section 2 */
 /* .section-2 {
