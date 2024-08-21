@@ -8,12 +8,23 @@ body {
 .navbar {
   background-color: #333;
   margin: 0;
-  padding: 0 30px;
+  padding: 0 1vw;
+  height: 10vh;
+  min-height: 70px;
+  width: 100%;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  width: auto;
+}
+
+.left-side {
+  display: flex;
+  height: 100%;
   align-items: center;
 }
 
@@ -21,48 +32,47 @@ body {
 #logo {
   display: flex;
   margin: 0 20px;
-  max-width: 10vw;
-  flex: 1 0 33%;
 }
 
 #logo p {
   color: white;
+  font-weight: bold;
+  font-size: 2vw;
 }
 
 /* Daftar */
+
 #list {
-  margin-left: 40%;
+  margin: 1vh 1vw;
 }
 
 ul {
   list-style-type: none;
-  margin-left: 0;
   padding: 0;
-  overflow: hidden;
+  margin: 0;
+  width: 40vw;
+  height: 100%;
 }
 
 li {
   float: left;
+  padding: 0 2vw;
 }
 li a {
   text-decoration: none;
-  padding: 5px;
   display: block;
   color: white;
-  margin: 0 20px;
-}
-
-li a:hover {
-  background-color: #111;
+  font-size: 1.5vw;
 }
 
 /* Login */
 #login-btn button {
-  padding: 10px;
+  padding: 10px 40px;
   margin: 0%;
   border-radius: 15%;
   background-color: #333;
   color: white;
+  font-size: 15px;
 }
 #login-btn button:hover {
   background-color: #111;
@@ -71,26 +81,25 @@ li a:hover {
 /* Section 1 */
 
 .hero-section {
-  width: 100%;
-  height: 600px;
-  background-image: url(https://fahum.umsu.ac.id/blog/wp-content/uploads/2024/07/sinopsis-film-deadpool-3-deadpool-wolverine-750x375.jpg);
+  background-image: url(https://akcdn.detik.net.id/visual/2023/03/29/drama-korea-duty-after-school-2023_169.jpeg?w=650&q=90);
   background-repeat: none;
   background-size: cover;
+  height: 40vw;
 }
 .bg-gradient {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0),
-    rgba(51, 51, 51, 0.8),
+    rgba(51, 51, 51, 0.5),
     #333
   );
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  height: 100%;
 }
 
 .desc {
-  padding: 200px 50px;
+  padding: 13vw 3.5vw;
+  align-items: center;
 }
 
 .movie-title {
@@ -98,15 +107,17 @@ li a:hover {
 }
 
 .movie-title h2 {
-  font-size: 60px;
+  font-size: 4.1vw;
   color: aliceblue;
   margin: 0;
+  font-weight: bold;
 }
 
 .movie-desc {
   color: aliceblue;
-  font-size: 20px;
+  font-size: 1.3vw;
   padding-bottom: 10px;
+  max-width: 700px;
 }
 
 .movie-misc {
@@ -122,9 +133,10 @@ li a:hover {
   padding: 5px 40px;
   border-style: none;
   border-radius: 15%;
-  background-color: #333;
+  background-color: blue;
   color: aliceblue;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .play-btn button:hover {
@@ -145,13 +157,66 @@ li a:hover {
   text-decoration: underline;
 }
 
-.teaser {
-  padding: 150px 40px;
+.age-r {
+  color: aliceblue;
+  margin: 0;
+  padding: 8px 6px;
+  margin-left: 15px;
+  border: solid 2px whitesmoke;
+  border-radius: 50%;
 }
 
 /* Section 2 */
-.lanjut-section {
+.section-2 {
   background-color: #333;
   width: 100%;
-  height: 250px;
+  height: 25vw;
+}
+
+.section-2 h2 {
+  margin: 0;
+  color: aliceblue;
+  padding: 20px 100px;
+  font-size: 40px;
+}
+
+.movie-con {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  max-width: 87vw;
+  height: 100%;
+  margin-left: 6.7vw;
+}
+
+.movie-grid {
+  height: 180px;
+  width: 20vw;
+  background-size: cover;
+  border-radius: 5%;
+}
+
+.bg-1 {
+  background-image: url(https://jeurnals.b-cdn.net/wp-content/uploads/DLU-cover.jpeg);
+}
+
+.gradient {
+  display: flex;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(51, 51, 51));
+}
+
+.mini-title h3 {
+  margin: 0;
+  font-size: 20px;
+  margin-top: 140px;
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.rate p {
+  margin: 0;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top: 125px;
+  color: aliceblue;
 }
