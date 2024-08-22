@@ -104,7 +104,7 @@ li a {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0),
     rgba(51, 51, 51, 0.5),
-    #333
+    #191a1c
   );
   height: 100%;
 }
@@ -159,7 +159,7 @@ li a {
 }
 
 .play-btn button:hover {
-  background-color: #111;
+  background-color: #191a1c;
 }
 
 .other {
@@ -196,11 +196,104 @@ li a {
   border-radius: 50%;
 }
 
+/*All Section */
+
+.con-section {
+  background-color: #191a1c;
+  width: 100%;
+  height: 350px;
+  padding: 4vw;
+}
+
+.section {
+  background-color: #191a1c;
+  width: 100%;
+  height: 480px;
+  padding: 2vw 4vw 0 4vw;
+}
+
+/* All Judul */
+.section-title {
+  margin: 0;
+  color: aliceblue;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+/* Bagian film */
+.movie-con {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
+  gap: 20px;
+}
+
+.movie-grid {
+  height: 180px;
+  width: 320px;
+  background-size: cover;
+  border-radius: 5%;
+}
+
+/* background */
+.bg-1 {
+  background-image: url(https://jeurnals.b-cdn.net/wp-content/uploads/DLU-cover.jpeg);
+}
+
+.gradient {
+  display: flex;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(51, 51, 51));
+}
+
+.mini-title h3 {
+  margin: 0;
+  font-size: 20px;
+  margin-top: 140px;
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.rate p {
+  margin: 0;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top: 125px;
+  color: aliceblue;
+}
+
+/* container Section */
+
+.film-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+
+.film-container img {
+  height: 350px;
+  border-radius: 5%;
+}
+
+hr {
+  margin: 0;
+  padding-top: 100px;
+  border: none;
+  border-bottom: 2px solid #333;
+  background-color: #191a1c;
+}
+
+/* Footer */
+
+.foot-container {
+  background-color: #191a1c;
+  height: 200px;
+  width: 100%;
+}
+
 @media screen and (max-width: 426px) {
   .left-side #chill-logo {
     display: none;
   }
-
   .left-side #clip-logo {
     width: 30px;
     margin-left: 15px;
@@ -240,59 +333,31 @@ li a {
   .other a {
     font-size: calc(0.6 * 25px);
   }
-}
 
-/* Section 2 */
-/* .section-2 {
-  background-color: #333;
-  width: 100%;
-  height: 25vw;
-}
+  .overflow {
+    overflow: auto;
+  }
 
-.section-2 h2 {
-  margin: 0;
-  color: aliceblue;
-  padding: 20px 100px;
-  font-size: 40px;
-}
+  .con-section {
+    height: 270px;
+    padding-bottom: 0;
+  }
 
-.movie-con {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  max-width: 87vw;
-  height: 100%;
-  margin-left: 6.7vw;
-}
+  .section {
+    height: 250px;
+    padding-top: 0;
+  }
 
-.movie-grid {
-  height: 180px;
-  width: 20vw;
-  background-size: cover;
-  border-radius: 5%;
-}
+  .section-title {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
 
-.bg-1 {
-  background-image: url(https://jeurnals.b-cdn.net/wp-content/uploads/DLU-cover.jpeg);
-}
+  .film-container {
+    gap: 10px;
+  }
 
-.gradient {
-  display: flex;
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(51, 51, 51));
+  .film-container img {
+    height: 175px;
+  }
 }
-
-.mini-title h3 {
-  margin: 0;
-  font-size: 20px;
-  margin-top: 140px;
-  margin-left: 20px;
-  color: aliceblue;
-}
-
-.rate p {
-  margin: 0;
-  font-size: 15px;
-  margin-left: 100px;
-  margin-top: 125px;
-  color: aliceblue;
-} */
