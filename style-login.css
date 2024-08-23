@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  background-image: url(https://e0.pxfuel.com/wallpapers/71/5/desktop-wallpaper-computer-background-cinema-391-25-kb-theatre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.bg-form {
+  height: 600px;
+  width: 445px;
+  background-color: rgba(25, 26, 28, 0.9);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+form img {
+  margin: 0 30% 10px 30%;
+}
+
+form h2 {
+  margin: 0 40%;
+  font-size: 35px;
+}
+
+form .greet {
+  margin: 10px 32% 30px 32%;
+  width: 200px;
+  font-size: 17px;
+}
+
+.input-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-area {
+  background-color: rgba(25, 26, 28, 0.9);
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.other-option {
+  display: flex;
+  justify-content: space-between;
+  margin: -40px 0 20px 0;
+}
+
+.other-option a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+form button {
+  color: #fff;
+  border-radius: 25px;
+  font-size: 17px;
+  border: 1px solid #333;
+}
+
+.login {
+  padding: 17px;
+  font-size: 17px;
+  background-color: #333;
+}
+
+.log-google {
+  font-size: 15px;
+  background-color: rgba(25, 26, 28, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.or {
+  margin: 10px 47%;
+}
+
+.log-google img {
+  height: 40px;
+  margin: 0 10px;
+  padding: 1px 0;
+}
