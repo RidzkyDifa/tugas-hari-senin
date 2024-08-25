@@ -3,20 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login page</title>
-    <link rel="stylesheet" href="style-login.css" />
-    <link
-      rel="stylesheet"
-      href="https://fontawesome.com/icons/google?f=brands&s=solid"
-    />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style-regis.css" />
   </head>
   <body>
     <div class="background">
       <form action="input">
         <div class="bg-form">
           <img src="logo-chill.png" alt="chill" />
-          <h2>Masuk</h2>
-          <p class="greet">Selamat datang kembali!</p>
+          <h2>Daftar</h2>
+          <p class="greet">Selamat datang!</p>
           <label class="input-title" for=""> Username</label>
           <input
             class="input-area"
@@ -29,15 +25,20 @@
             type="text"
             placeholder="Masukan Kata sandi"
           />
+          <label class="input-title" for="">Konfirmasi Kata Sandi</label>
+          <input
+            class="input-area"
+            type="text"
+            placeholder="Masukan Kata sandi"
+          />
           <div class="other-option">
-            <p>Belum punya akun? <a href="daftar.html">Daftar</a></p>
-            <p>Lupa kata sandi?</p>
+            <p>Sudah punya akun? <a href="login.html">Masuk</a></p>
           </div>
-          <button class="login"><a href="index.html">Masuk</a></button>
+          <button class="login">Daftar</button>
           <p class="or">Atau</p>
           <button class="log-google">
             <img src="google.png" alt="google" />
-            Masuk dengan Google
+            Daftar dengan Google
           </button>
         </div>
       </form>

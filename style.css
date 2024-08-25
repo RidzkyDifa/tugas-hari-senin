@@ -232,7 +232,7 @@ li a {
   height: 180px;
   width: 320px;
   background-size: cover;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 /* background */
@@ -240,10 +240,24 @@ li a {
   background-image: url(https://jeurnals.b-cdn.net/wp-content/uploads/DLU-cover.jpeg);
 }
 
+.bg-2 {
+  background-image: url(https://asset.kompas.com/crops/fLFkvYIecWo1QtC2wHcCFV126TE=/0x5:1000x505/780x390/data/photo/2021/12/28/61cabe1bdc381.png);
+}
+
+.bg-3 {
+  background-image: url(https://www.lazone.id/storage/news/Januari_2023/03_Januari/Movie/orig-blue%20lock-cover.jpg);
+}
+
+.bg-4 {
+  background-image: url(https://imgx.sonora.id/crop/0x0:0x0/x/photo/2023/07/24/aaaabbr_ni4lpwefiuryqcin3_tkyq9f-20230724023712.jpg);
+}
+
 .gradient {
   display: flex;
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(51, 51, 51));
+  border-radius: 10px;
+  justify-content: space-between;
 }
 
 .mini-title h3 {
@@ -257,7 +271,7 @@ li a {
 .rate p {
   margin: 0;
   font-size: 15px;
-  margin-left: 100px;
+  margin-right: 20px;
   margin-top: 125px;
   color: aliceblue;
 }
@@ -288,6 +302,69 @@ hr {
   background-color: #191a1c;
   height: 200px;
   width: 100%;
+  display: flex;
+}
+
+.left-foot {
+  width: 25%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-foot img {
+  padding-right: 90px;
+}
+
+.left-foot p {
+  color: grey;
+  margin-top: 0;
+}
+
+.mid-foot {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 60px;
+}
+
+.mid-foot p {
+  font-size: 20px;
+}
+
+.genre-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.genre-grid a {
+  text-decoration: none;
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.right-foot {
+  width: 25%;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.right-foot p {
+  font-size: 20px;
+}
+
+.grid-help {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-help a {
+  text-decoration: none;
+  color: gray;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 426px) {

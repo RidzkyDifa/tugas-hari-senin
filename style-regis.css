@@ -15,7 +15,7 @@ body {
 }
 
 .bg-form {
-  height: 600px;
+  height: 700px;
   width: 445px;
   background-color: rgba(25, 26, 28, 0.9);
   border-radius: 20px;
@@ -36,8 +36,8 @@ form h2 {
 }
 
 form .greet {
-  margin: 10px 32% 30px 32%;
-  width: 200px;
+  margin: 10px 39% 30px 39%;
+  width: 150px;
   font-size: 17px;
 }
 
@@ -51,9 +51,8 @@ form .greet {
   height: 40px;
   border: 2px solid #333;
   border-radius: 20px;
-  margin-bottom: 40px;
-  padding-left: 10px;
-  color: #fff;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 
 .other-option {
@@ -79,11 +78,6 @@ form button {
   padding: 17px;
   font-size: 17px;
   background-color: #333;
-}
-
-.login a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .log-google {
