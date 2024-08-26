@@ -335,6 +335,15 @@ hr {
   font-size: 20px;
 }
 
+.genre-btn {
+  background-color: #191a1c;
+  color: #fff;
+  border: none;
+  width: 20px;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
 .genre-grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -436,5 +445,89 @@ hr {
 
   .film-container img {
     height: 175px;
+  }
+
+  .foot-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-foot {
+    width: 100%;
+    margin-right: 50px;
+    display: block;
+    padding: 20px;
+  }
+
+  .mid-foot {
+    margin: 0 40px;
+  }
+
+  .right-foot {
+    margin: 0 40px 60px 40px;
+  }
+
+  /* genre footer */
+  .genre-btn {
+    display: inline-block;
+    position: relative;
+  }
+
+  .genre-grid {
+    display: none;
+    position: absolute;
+    width: 160%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    top: 1050px;
+  }
+
+  .genre-btn:hover .genre-grid {
+    display: block;
+  }
+
+  .genre-grid a {
+    display: block;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(25, 26, 28);
+  }
+
+  .genre-grid a:hover {
+    color: rgb(25, 26, 28);
+    background-color: aliceblue;
+  }
+
+  /* help button */
+  .help-btn {
+    display: inline-block;
+    position: relative;
+  }
+
+  .grid-help {
+    display: none;
+    position: absolute;
+    width: 160%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    right: 8px;
+  }
+
+  .help-btn:hover .grid-help {
+    display: block;
+  }
+
+  .grid-help a {
+    display: block;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(25, 26, 28);
+  }
+
+  .grid-help a:hover {
+    color: rgb(25, 26, 28);
+    background-color: aliceblue;
   }
 }
