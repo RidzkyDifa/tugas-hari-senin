@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a4d7e1;
+}
+
+.login-form {
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 350px;
+  background-color: #d3d3d3;
+  border-radius: 25px;
+}
+
+.login-btn {
+  margin: 20px 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6e7a0;
+}
+
+.input-login {
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #3b3b3b;
+  height: 75px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.logo-profil {
+  display: flex;
+  border: 1px solid black;
+  height: 45px;
+  margin-right: 20px;
+  background-color: #ffff;
+  border-radius: 25px;
+}
+
+.profil {
+  height: 45px;
+  width: 55px;
+  border-radius: 25px;
+}
+
+.profil-detail {
+  margin-right: 20px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 350px;
+  background-color: #d3d3d3;
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  margin: 20px 0;
+}
+
+.extend {
+  display: flex;
+  justify-content: center;
+}
+
+#taskInput {
+  margin: 0 20px;
+  padding: 20px 10px;
+}
+
+select,
+input[type="date"] {
+  margin: 15px 10px;
+  padding: 0 15px;
+}
+
+button {
+  width: auto;
+  margin: 0 20px;
+}
+
+.submit {
+  padding: 5px 0;
+  border-radius: 15px;
+  border: 2px solid #385170;
+  background-color: #f6e7a0;
+}
+
+ul {
+  padding: 0 10px;
+}
+
+ul li {
+  list-style: none;
+  color: #ececec;
+}
+
+ul div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+  width: 100%;
+}
+
+ul div input {
+  width: 10%;
+}
+
+ul div li {
+  width: 70%;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+ul div span {
+  width: 20%;
+  font-size: 12px;
+  text-align: left;
+}
+
+li.checked {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.bigdiv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+#list-item {
+  color: #ececec;
+}
+
+.medium {
+  color: yellow;
+}
+
+.high {
+  color: red;
+}
+
+.deadline {
+  width: 100%;
+  padding-left: 20px;
+  color: lightgray;
+}
+
+.btn-dlt {
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: red;
+  color: #ececec;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.task-label {
+  text-decoration: none;
+  padding: 17px 10px;
+  border-radius: 25px 25px 0 0;
+}
+
+.option {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.task-section {
+  background-color: #4a4a4a;
+  border-radius: 0 0 24px 24px;
+  padding: 20px 0;
+}
+
+.mark {
+  background-color: #4a4a4a;
+  color: #ececec;
+}

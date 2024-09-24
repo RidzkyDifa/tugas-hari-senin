@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Login Form -->
+    <nav class="navbar hidden" id="navbar">
+      <div class="logo-profil" id="logo-profil">
+        <img
+          src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/13/Screenshot-358-3185835934.png"
+          alt="foto-profil"
+          class="profil"
+          id="profil"
+        />
+        <div class="profil-detail" id="profil-detail"></div>
+      </div>
+    </nav>
+    <section class="login-form" id="login-form">
+      <h1>LOGIN</h1>
+      <h2>What is your name</h2>
+      <input
+        type="text"
+        placeholder="Input your name"
+        class="input-login"
+        id="name-input"
+      />
+      <h2>Your Job</h2>
+      <input
+        type="text"
+        placeholder="Input your job"
+        class="input-login"
+        id="job-input"
+      />
+      <button class="login-btn" id="login-btn">Login</button>
+    </section>
+    <!-- 
+    bikin halaman login
+    bikin pop up pas login
+    bikin navbar
+    bikin logout buat balik ke login
+    -->
+    <!-- todo list -->
+    <div class="container hidden" id="mainCont">
+      <h1>To-Do-list</h1>
+      <input type="text" id="taskInput" placeholder="Input your task here" />
+      <div class="extend">
+        <select id="prioritySelect">
+          <option value="low">Low Priority</option>
+          <option value="medium">Medium Priority</option>
+          <option value="high">High Priority</option>
+        </select>
+        <input type="date" id="deadlineDate" />
+      </div>
+      <button id="addTaskButton" class="submit">Input Task</button>
+      <div class="option">
+        <a href="#" class="task-label mark" id="active-label">Active Task</a>
+        <a href="#" class="task-label" id="done-label">Task Done</a>
+        <button id="delete-button-active" class="btn-dlt">Delete Task</button>
+      </div>
+      <div class="task-section">
+        <ul id="activeTask">
+          <li class="placeholder hidden">No active tasks yet</li>
+        </ul>
+        <ul id="doneTask" class="hidden">
+          <li class="placeholder hidden">No tasks done yet</li>
+        </ul>
+      </div>
+    </div>
+    <script src="system.js"></script>
+  </body>
+</html>
