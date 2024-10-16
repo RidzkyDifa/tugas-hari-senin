@@ -1,0 +1,36 @@
+.section-1 {
+  /* height: 512px; */
+  background-color: #191a1c;
+  padding: 40px 80px;
+  position: relative;
+}
+
+.movie-grid {
+  display: flex;
+  gap: 32px;
+}
+
+.movie-galery img {
+  height: 365px;
+}
+
+.scroll-button {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  position: absolute;
+  border-radius: 25px;
+}
+
+.scroll-button.left {
+  left: 60px;
+}
+
+.scroll-button.right {
+  right: 60px;
+}
