@@ -1,3 +1,51 @@
+const mainSection = [
+  {
+    src: "https://akcdn.detik.net.id/visual/2023/03/29/drama-korea-duty-after-school-2023_169.jpeg?w=650&q=90",
+    title: "",
+    rating: "",
+    episodes: "",
+    genres: ["", "", ""],
+  },
+];
+
+const continueMovies = [
+  {
+    src: "https://jeurnals.b-cdn.net/wp-content/uploads/DLU-cover.jpeg",
+    title: "Don't Look UP",
+    rating: "4.9",
+    episodes: "",
+    genres: ["", "", ""],
+  },
+  {
+    src: "https://asset.kompas.com/crops/fLFkvYIecWo1QtC2wHcCFV126TE=/0x5:1000x505/780x390/data/photo/2021/12/28/61cabe1bdc381.png",
+    title: "ALL OF US ARE DEAD",
+    rating: "4.8",
+    episodes: "",
+    genres: ["", "", ""],
+  },
+  {
+    src: "https://www.lazone.id/storage/news/Januari_2023/03_Januari/Movie/orig-blue%20lock-cover.jpg",
+    title: "Blue Lock",
+    rating: "4.7",
+    episodes: "",
+    genres: ["", "", ""],
+  },
+  {
+    src: "https://imgx.sonora.id/crop/0x0:0x0/x/photo/2023/07/24/aaaabbr_ni4lpwefiuryqcin3_tkyq9f-20230724023712.jpg",
+    title: "A Man Called Otto",
+    rating: "4.5",
+    episodes: "",
+    genres: ["", "", ""],
+  },
+  {
+    src: "https://assets.kompasiana.com/items/album/2023/07/19/suzume-64b75bf3a0688f4fad71e093.jpg?t=o&v=740&x=416",
+    title: "Suzume",
+    rating: "4.9",
+    episodes: "",
+    genres: ["", "", ""],
+  },
+];
+
 const topMovies = [
   {
     src: "https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2F6%2Fgracenote%2F6712d44cade77919f9365b7626aa37d7.jpg",
@@ -231,4 +279,4 @@ const newRelease = [
   },
 ];
 
-export { topMovies, trendingMovies, newRelease };
+export { topMovies, trendingMovies, newRelease, continueMovies, mainSection };
